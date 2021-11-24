@@ -51,27 +51,27 @@ class ItemAdapter(var mItemList: List<Item>, val mActivity: Activity) : Recycler
         var imageUrl : String
         if (name.lowercase().contains("tomato")) {
             imageUrl =
-                "http://www.bigbasket.com/media/uploads/p/s/40022638_3-fresho-tomato-local-organically-grown.jpg";
+                "https://www.bigbasket.com/media/uploads/p/s/40022638_3-fresho-tomato-local-organically-grown.jpg";
         } else if (name.lowercase().contains("onion")) {
             imageUrl =
-                "http://www.bigbasket.com/media/uploads/p/s/40023472_3-fresho-onion-organically-grown.jpg";
+                "https://www.bigbasket.com/media/uploads/p/s/40023472_3-fresho-onion-organically-grown.jpg";
         } else if (name.lowercase().contains("potato")) {
             imageUrl =
-                "http://www.bigbasket.com/media/uploads/p/s/40023476_4-fresho-potato-organically-grown.jpg";
+                "https://www.bigbasket.com/media/uploads/p/s/40023476_4-fresho-potato-organically-grown.jpg";
         } else if (name.lowercase().contains("maggi")) {
             imageUrl =
-                "http://www.bigbasket.com/media/uploads/p/s/266109_15-maggi-2-minute-instant-noodles-masala.jpg";
+                "https://www.bigbasket.com/media/uploads/p/s/266109_15-maggi-2-minute-instant-noodles-masala.jpg";
         } else if (name.lowercase().contains("aashirvaad atta")) {
             imageUrl =
-                "http://www.bigbasket.com/media/uploads/p/s/126906_7-aashirvaad-atta-whole-wheat.jpg";
+                "https://www.bigbasket.com/media/uploads/p/s/126906_7-aashirvaad-atta-whole-wheat.jpg";
         } else if (name.lowercase().contains("mango")) {
             imageUrl =
-                "http://www.bigbasket.com/media/uploads/p/l/10000304_4-fresho-mallika-mango.jpg";
+                "https://www.bigbasket.com/media/uploads/p/l/10000304_4-fresho-mallika-mango.jpg";
         } else if (name.lowercase().contains("banana")) {
             imageUrl =
-                "http://www.bigbasket.com/media/uploads/p/l/40179390_6-fresho-baby-banana-robusta.jpg";
+                "https://www.bigbasket.com/media/uploads/p/l/40179390_6-fresho-baby-banana-robusta.jpg";
         } else {
-            imageUrl = "http://www.honestbee.tw/images/placeholder.jpg";
+            imageUrl = "https://www.honestbee.tw/images/placeholder.jpg";
         }
         return imageUrl;
     }
