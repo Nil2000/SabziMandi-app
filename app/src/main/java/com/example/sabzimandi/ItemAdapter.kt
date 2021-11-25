@@ -32,11 +32,6 @@ class ItemAdapter(var mItemList: List<Item>, val mActivity: Activity) : Recycler
         return mItemList.size
     }
 
-    public fun setData(itemList: List<Item>){
-        mItemList = itemList
-        notifyDataSetChanged()
-    }
-
 
     class ItemViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val name: TextView = itemView.findViewById(R.id.name)
